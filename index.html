@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  
+  <script src="JS/jquery.min.js"></script>
+  <script src="JS/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="CSS/dataTables.bootstrap.min.css">
+  <script src="JS/jquery.dataTables.min.js"></script>
+  <script src="JS/dataTables.bootstrap.min.js"></script>
+  
+  <script src="JS/scripts.js"></script>
+  <link rel="stylesheet" href="CSS/main-stylesheet.css">
+  <link rel="stylesheet" href="CSS/colors-stylesheet.css">
+</head>
+<body>
+
+<nav class="navbar PT5265 PT346C">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar PT255"></span>
+				<span class="icon-bar PT255"></span>
+				<span class="icon-bar PT255"></span>
+			</button>
+			<a class="navbar-brand" href="#"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Overview</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  
+<div class="container">
+	<h3>Overview</h3>
+	<p>
+		Let op alle waarden zijn static. Refresh de pagina om waardes te updaten.
+	</p>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading PT7706 PT255C">PLC "Spui" tags</div>
+				<div class="panel-body">
+					<div class="table-responsive">
+						<table class="table dataTable" id="PLC1">
+							<thead>
+								<tr>
+									<th>PLC Tag</th>
+									<th>Value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Klep AB Opened</td><td>:="Valve_AB".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep AB Locked</td><td>:="Valve_AB".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep AB Available</td><td>:="Valve_AB".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep AB Error</td><td>:="Valve_AB".Ctrl.sts.Error:</td></tr>
+								<tr><td>Klep CD Opened</td><td>:="Valve_CD".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep CD Locked</td><td>:="Valve_CD".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep CD Available</td><td>:="Valve_CD".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep CD Error</td><td>:="Valve_CD".Ctrl.sts.Error:</td></tr>
+								<tr><td>Klep EF Opened</td><td>:="Valve_EF".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep EF Locked</td><td>:="Valve_EF".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep EF Available</td><td>:="Valve_EF".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep EF Error</td><td>:="Valve_EF".Ctrl.sts.Error:</td></tr>
+								<tr><td>Klep GH Opened</td><td>:="Valve_GH".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep GH Locked</td><td>:="Valve_GH".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep GH Available</td><td>:="Valve_GH".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep GH Error</td><td>:="Valve_GH".Ctrl.sts.Error:</td></tr>
+								<tr><td>Klep IJ Opened</td><td>:="Valve_IJ".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep IJ Locked</td><td>:="Valve_IJ".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep IJ Available</td><td>:="Valve_IJ".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep IJ Error</td><td>:="Valve_IJ".Ctrl.sts.Error:</td></tr>
+								<tr><td>Klep KL Opened</td><td>:="Valve_KL".Ctrl.sts.Opened:</td></tr>
+								<tr><td>Klep KL Locked</td><td>:="Valve_KL".Ctrl.sts.Locked:</td></tr>
+								<tr><td>Klep KL Available</td><td>:="Valve_KL".Ctrl.sts.Available:</td></tr>
+								<tr><td>Klep KL Error</td><td>:="Valve_KL".Ctrl.sts.Error:</td></tr>
+								<tr><td>Buiten Temperatuur Value</td><td>:="Temp_BT".Ctrl.sts.Value:</td></tr>
+								<tr><td>Buiten Temperatuur Error</td><td>:="Temp_BT".Ctrl.sts.Error:</td></tr>
+								<tr><td>Buiten Temperatuur Available</td><td>:="Temp_BT".Ctrl.sts.Available:</td></tr>
+								<tr><td>Leiding Temperatuur Value</td><td>:="Temp_WT".Ctrl.sts.Value:</td></tr>
+								<tr><td>Leiding Temperatuur Error</td><td>:="Temp_WT".Ctrl.sts.Error:</td></tr>
+								<tr><td>Leiding Temperatuur Available</td><td>:="Temp_WT".Ctrl.sts.Available:</td></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading PT7706 PT255C">PLC "Spui" Configuratie</div>
+				<div class="panel-body">
+					<ul>
+						<li>
+							1 x CPU S7-1212C
+						</li>
+						<li>
+							1 x KTP400 COMFORT 
+						</li>
+						<li>
+							2 x SB 1231 RTD 
+						</li>
+					</ul>
+					<p>
+						Aan deze configuratie hangen 6x DO, self-closing valve, en 2x AI, temperatuur meting. Voor het volledige functioneel ontwerp <a href="DOC/specificatie.pdf" target="_BLANK">klik hier.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+/*Colors*/
+
+.PT255{
+	background-color: rgb(255,255,255)!important;
+}
+.PT255C{
+	color: rgb(255,255,255)!important;
+}
+
+/************/
+/*   Blue   */
+/*Background*/
+/************/
+.PT{
+	background-color: rgb(0,170,255)!important;
+}
+.PT7461{
+	background-color: rgb(0,120,190)!important;
+}
+.PT7693{
+	background-color: rgb(0,90,120)!important;
+}
+.PT7710{
+	background-color: rgb(55,185,195)!important;
+}
+.PT346{
+	background-color: rgb(145,200,150)!important;
+}
+.PT2118{
+	background-color: rgb(25,40,130)!important;
+}
+.PT5265{
+	background-color: rgb(25,45,85)!important;
+}
+.PT7706{
+	background-color: rgb(0,105,145)!important;
+}
+/*Foreground*/
+.PTC{
+	color: rgb(0,170,255)!important;
+}
+.PT7461C{
+	color: rgb(0,120,190)!important;
+}
+.PT7693C{
+	color: rgb(0,90,120)!important;
+}
+.PT7710C{
+	color: rgb(55,185,195)!important;
+}
+.PT346C{
+	color: rgb(145,200,150)!important;
+}
+.PT2118C{
+	color: rgb(25,40,130)!important;
+}
+.PT5265C{
+	color: rgb(25,45,85)!important;
+}
+.PT7706C{
+	color: rgb(0,100,140)!important;
+}
